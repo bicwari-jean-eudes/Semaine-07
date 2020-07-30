@@ -14,11 +14,11 @@ background: #FFFFFF;
 header {
   position: absolute;
 width: 1920px;
-height: 127px;
+height: 130px;
 left: 0px;
-top: -1px;
+top: 0px;
 
-background: linear-gradient(180deg, #2637D1 0%, rgba(196, 196, 196, 0) 100%);
+background: #fff48f;
 }
 .photo2{
 position: absolute;
@@ -60,14 +60,14 @@ height: 89px;
 left: 0px;
 top: 820px;
 
-background: linear-gradient(180deg, #1F349D 0%, rgba(57, 80, 201, 0) 100%);
+background:#394989 ;
 }
 .mail {
   position: absolute;
   width: 295px;
   height: 42px;
   left: 1362px;
-  top: 20px;
+  top: 13px;
 
   font-family: Roboto;
   font-style: normal;
@@ -82,12 +82,19 @@ a.mail:hover {
   color: #f37121;
   text-transform: uppercase;
 }
+.Logo2 {
+  position: absolute;
+  width: 35px;
+  height: 25px;
+  left: 1450px;
+  top: 25px;
+}
 .linkedin {
   position: absolute;
   width: 395px;
   height: 42px;
   left: 900px;
-  top: 20px;
+  top: 13px;
 
   font-family: Roboto;
   font-style: normal;
@@ -101,6 +108,13 @@ a.mail:hover {
 a.linkedin:hover {
   color: #f37121;
   text-transform: uppercase;
+}
+.Logo1 {
+  position: absolute;
+  width: 35px;
+  height: 25px;
+  left: 950px;
+  top: 25px;
 }
 .texto {
 position: absolute;
@@ -231,6 +245,7 @@ top: 5px;
 
     background: linear-gradient(180deg, #7582FB 0%, rgba(178, 185, 254, 0) 100%);
     top: 136px;
+    border-radius: 100px;
   }
   .font2 {
     position: absolute;
@@ -384,7 +399,7 @@ top: 5px;
   color: black;
   z-index: 999;
 
-  background: beige;
+background: #fff48f;
  }
  #comment {
   position: absolute;
@@ -418,7 +433,7 @@ top: 5px;
   left: 1025px;
   top: 228px;
 
-  background-color:blue;
+  background-color:#4ea0ae;
   border-radius: 16px;
  }
  .contact {
