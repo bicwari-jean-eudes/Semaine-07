@@ -62,39 +62,16 @@ top: 820px;
 
 background:#394989 ;
 }
-.mail {
-  position: absolute;
-  width: 295px;
-  height: 42px;
-  left: 1362px;
-  top: 13px;
 
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 42px;
-
-  color:#1b1c25;
-
-}
-a.mail:hover {
-  color: #f37121;
-  text-transform: uppercase;
-}
-.Logo2 {
-  position: absolute;
-  width: 35px;
-  height: 25px;
-  left: 1450px;
-  top: 25px;
-}
 .linkedin {
   position: absolute;
-  width: 395px;
+  width: 49px;
   height: 42px;
-  left: 900px;
+  left: 1750px;
   top: 13px;
+  background-color: #fff48f;
+  display: flex;
+  justify-content: center;
 
   font-family: Roboto;
   font-style: normal;
@@ -109,13 +86,25 @@ a.linkedin:hover {
   color: #f37121;
   text-transform: uppercase;
 }
-.Logo1 {
+.phone{
   position: absolute;
-  width: 35px;
-  height: 25px;
+  width: 749px;
+  height: 42px;
   left: 950px;
-  top: 25px;
+  top: 13px;
+  background-color: #fff48f;
+  display: flex;
+  justify-content: center;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+
+  color: #1b1c25;
 }
+
 .texto {
 position: absolute;
 width: 800px;
@@ -141,6 +130,27 @@ mix-blend-mode: normal;
 }
 .texto {
   transition:color 5s, transform 10s;
+}
+.contact1 {
+  position: absolute;
+  width: 320px;
+  height: 86px;
+  left: 201px;
+  top: 364px;
+
+  font-family: "Sofia";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 75px;
+  letter-spacing: 0.05em;
+  background-color:#394989 ;
+
+  color: white;
+  z-index: 999;
+  border-radius: 17px;
+
+  mix-blend-mode: normal;
 }
 .texte1 {
   position: absolute;
@@ -237,6 +247,11 @@ top: 5px;
   }
   .photo3 {
     transition: color 10s,transform 10s
+  }
+  .ht {
+    position: absolute;
+    left: 90px;
+    top: 55px;
   }
   .font1 {
     position: absolute;
