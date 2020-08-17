@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="style.css" media="all" />
 
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   </style>
 </head>
 
@@ -19,16 +20,18 @@
       <a href="propos.html" class="texte3">à propos</a>
       <a href="contact.html" class="texte4">contact</a>
       <img src="images/Group 7.png" alt="mon logo" class="photo3" />
-      <a href="index.html" class="ht">--</a>
+      <a href="index.html" class="photo3"><img src="images/Group 7.png" alt=""></a>
     </header>
     <div class="texto">
-      <h4>Salut !,</h4>
+      <h1>Salut !,</h1>
       <p>je m'appelle Jean Eudes Bicwari, je suis integrateur web . . . .</p>
       <a href="contact.html" class="contact1">Contactez moi</a>
     </div>
     <div class="imgLogo">
-      <img src="images/2020-07-17_Sirius_photosLinkedin_12.jpg" alt="photo Eudes" class="photo" />
-      <img src="images/fabian-grohs-U0tBTn8UR8I-unsplash.jpg" alt="photo fond d'écran" class="photo2" />
+      <img src="images/2020-07-17_Sirius_photosLinkedin_12.jpg" alt="photo Eudes" class="photo" data-aos="fade-up"
+        data-aos-duration="3000" />
+      <img src="images/fabian-grohs-U0tBTn8UR8I-unsplash.jpg" alt="photo fond d'écran" class="photo2"
+        data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000" />
 
     </div>
   </div>
@@ -38,5 +41,9 @@
   </footer>
 
 </body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 
 </html>

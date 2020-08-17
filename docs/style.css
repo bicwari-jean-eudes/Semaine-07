@@ -41,18 +41,6 @@ z-index: 999;
 background: url(2020-07-17_Sirius_photosLinkedin_12.jpg);
 border-radius: 398.5px;
 }
-@keyframes move-right {
-  from {
-    transform: translate(0);
-  }
-  to {
-    transform: translate(1400px);
-  }
-}
-.photo {
-  animation-name: move-right;
-  animation-duration: 20s;
-}
 footer {
   position: absolute;
 width: 1920px;
@@ -104,19 +92,32 @@ a.linkedin:hover {
 
   color: #1b1c25;
 }
+h1{
+  position: absolute;
+width: 300px;
+height: 86px;
+left: 401px;
+top: 220px;
+z-index: 999;
+color: white;
+font-size: 48px;
+line-height: 75px;
+letter-spacing: 0.05em;
 
-.texto {
+font-family: "Sofia"
+}
+p {
 position: absolute;
 width: 800px;
 height: 206px;
-left: 701px;
-top: 234px;
+left: 401px;
+top: 334px;
 
-font-family: "Sofia";
-font-style: normal;
-font-weight: bold;
-font-size: 48px;
-line-height: 75px;
+font-family: Roboto;
+font-style: italic;
+font-weight: normal;
+font-size: 36px;
+line-height: 42px;
 letter-spacing: 0.05em;
 
 color:white;
@@ -124,21 +125,19 @@ z-index: 999;
 
 mix-blend-mode: normal;
 }
-.texto:hover {
+p:hover {
   transform: scaleX(-1.3);
   color: #f37121;
 }
-.texto {
+p {
   transition:color 5s, transform 10s;
 }
 .contact1 {
   position: absolute;
   width: 330px;
   height: 86px;
-  left: 201px;
-  top: 364px;
-
-  font-family: "Sofia";
+  left: 401px;
+  top: 564px;
   font-style: normal;
   font-weight: bold;
   font-size: 48px;
@@ -175,6 +174,8 @@ a.texte1:hover {
   color: #f37121;
   text-transform: uppercase;
 }
+a.texte1:active {
+  color: #00FF00;}
 .texte2 {
   position: absolute;
 width: 196px;
@@ -195,6 +196,8 @@ a.texte2:hover {
   color: #f37121;
   text-transform: uppercase;
 }
+a.texte2:active{
+  color: #00FF00;}
 .texte3 {
   position: absolute;
 width: 254px;
@@ -216,6 +219,8 @@ a.texte3:hover {
   color: #f37121;
   text-transform: uppercase;
 }
+a.texte3:active{
+  color: #00FF00;}
 .texte4 {
   position: absolute;
 width: 138px;
@@ -237,6 +242,8 @@ a.texte4:hover {
   color: #f37121;
   text-transform: uppercase;
 }
+a.texte4:active{
+  color: #00FF00;}
 .photo3 {
   position: absolute;
 left: 40px;
@@ -286,7 +293,7 @@ top: 5px;
     line-height: 42px;
     letter-spacing: 0.05em;
 
-  color:#1b1c25;
+  color:white
 
   }
   .texto2 {
@@ -303,7 +310,7 @@ top: 5px;
     line-height: 42px;
     letter-spacing: 0.05em;
 
-  color:#1b1c25;
+  color:white
 
   }
   .texto3 {
@@ -320,7 +327,7 @@ top: 5px;
   line-height: 42px;
   letter-spacing: 0.05em;
 
-  color:#1b1c25;
+  color: white;
 
   }
   .texto4 {
@@ -336,7 +343,7 @@ top: 5px;
   font-size: 36px;
   line-height: 42px;
   letter-spacing: 0.05em;
-  color:#1b1c25;
+  color:white
 
   }
   .screen1 {
@@ -387,7 +394,7 @@ top: 5px;
   line-height: 42px;
   letter-spacing: 0.05em;
 
-  color:#1b1c25;
+  color:white
 }
 #auteur {
   position: absolute;
@@ -451,20 +458,21 @@ background: #fff48f;
   background-color:#4ea0ae;
   border-radius: 16px;
  }
- .contact {
-  position: absolute;
-  width: 632px;
-  height: 142px;
-  left: 190px;
-  top: 334px;
-  mix-blend-mode: normal;
-  font-family: Roboto;
-  font-style: italic;
-  font-weight: normal;
-  font-size: 36px;
-  line-height: 42px;
-  letter-spacing: 0.05em;
-  z-index: 999;
+h3{
+    position: absolute;
+    width: 632px;
+    height: 142px;
+    left: 190px;
+    top: 334px;
+    mix-blend-mode: normal;
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.05em;
+    z-index: 999;
 
-  color:#1b1c25;
- }
+    color:white;
+   }
+}
