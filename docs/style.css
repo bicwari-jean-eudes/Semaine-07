@@ -493,8 +493,10 @@ h3{
       left:30vw ;
     }
     .contact1 {
+      display: flex;
+      justify-content: center;
       width: 22vw;
-      font-size: large;
+      font-size: medium;
     }
     p {
       font-size: large;
