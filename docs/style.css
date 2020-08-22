@@ -53,7 +53,7 @@ top: 90vh;
 background:#394989 ;
 }
 
-.linkedin {
+.lin {
   position: absolute;
   width: 2.55vw;
   height: 3.88vh;
@@ -482,7 +482,7 @@ h3{
     color:white;
    }
    @media only screen and (max-width: 600px) {
-    .linkedin {
+    .lin {
       width: 4vw;
       font-size: medium;
       left: 20vw;
